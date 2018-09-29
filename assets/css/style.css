@@ -1,3 +1,78 @@
+body {
+    background-image: url(../images/connectwork.png);
+    background-repeat: repeat;
+    }
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    max-height: 80px;
+}
+
+
+.navbar-brand {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background: #4aaaa5;
+    font-size: 2em;
+    float: left;
+    padding: 26px;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 20px 15px 20px;
+    border-bottom: 4px solid #dddddd;
+}
+
 #pancakes {
     width: 250px;
+    margin-right: 2em;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    word-spacing: 2px;
+}
+
+.thumbnail {
+    width: 260px;
+    height: 156px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.paintingtext {
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+    background: #4aaaa5;
+}
+
+footer {
+    background: #666666; 
+    border-top: 6px solid #4aaaa5;
+    height: 50px;
+    width: 100%;
 }
