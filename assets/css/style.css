@@ -11,6 +11,9 @@ a {
     max-height: 80px;
 }
 
+button:hover .collapse{
+    display: block;
+}
 
 .navbar-brand {
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -60,6 +63,67 @@ p {
 
 .paintingtext {
     color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+    background: #4aaaa5;
+}
+
+.paintings {
+    position: relative;
+    margin: 30px;
+    height: 156px;
+    width: 260px;
+    -webkit-filter: brightness(100%);
+}
+
+.paintingcontainer {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.paintings {
+    margin: 30px;
+    display: flex;
+    align-items: flex-end;
+    background: black;
+    width: 260px;
+    height: 156px;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 1em;
+    text-align: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#marchingland {
+    background-image: url(../images/marchingland.jpg);
+}
+
+#dalized {
+    background-image: url(../images/dalized.jpg);
+}
+
+#egret {
+    background-image: url(../images/egret.jpg);
+}
+
+#sunflowers {
+    background-image: url(../images/sunflowers.jpg);
+}
+
+#montanasunset {
+    background-image: url(../images/montanasunset.png);
+}
+
+.paintingtext {
     padding: 1rem;
     display: flex;
     justify-content: center;

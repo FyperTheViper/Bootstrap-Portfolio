@@ -11,10 +11,26 @@
   </head>
 <body>
   
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container p-0">
-          <a class="navbar-brand font-weight-bold text-white" href="index.html">Brett Byars</a> <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container p-0">
+        <a class="navbar-brand font-weight-bold text-white" href="index.html">Brett Byars</a> 
+        <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
+          <span class="navbar-toggler-icon"></span>
           <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
                 <a class="nav-link" href="index.html">About</a>
@@ -27,39 +43,34 @@
               </li>
             </ul>
           </div>
-        </div>
-    </nav>
+      </div>
+  </nav>
 
     <section class="container">
         <h2>Portfolio</h2>
         <div class="paintingcontainer">
           <div class="row">
-              <img class="thumbnail" src="assets/images/marchingland.jpg" alt="marchingland">
-              <div id="marchingland">
+              <div class="paintings" id="marchingland">
                   <span class="paintingtext">Marching Land</span>
               </div>
 
-              <img class="thumbnail" src="assets/images/dalized.jpg" alt="dalized">
-                  <div id="dalized">
+                  <div class="paintings" id="dalized">
                       <span class="paintingtext">Dalized Landscape</span>
                   </div>
             </div>  
             <div class="row">
 
-              <img class="thumbnail" src="assets/images/egret.jpg" alt="egret">
-                  <div id="egret">
+                  <div class="paintings" id="egret">
                       <span class="paintingtext">Dawning Egret</span>
                   </div>
               
-              <img class="thumbnail" src="assets/images/sunflowers.jpg" alt="sunflowers">
-                  <div id="sunflowers">
+                  <div class="paintings" id="sunflowers">
                       <span class="paintingtext">Sunflowers After Storm</span>
                   </div>
             </div>        
             <div class="row">
 
-              <img class="thumbnail" src="assets/images/montanasunset.png" alt="montanasunset">
-                  <div id="montanasunset">
+                  <div class="paintings" id="montanasunset">
                       <span class="paintingtext">Big Sky Montana</span>
                   </div>
             </div>
@@ -67,10 +78,8 @@
         </div>
     </section>
    
-    <footer class="footer fixed-bottom">
-        <div class="text-center">
+    <footer class="footer fixed-bottom text-center">
             <span class="text-light">&copy;Copyright 𐐒WB</span>
-        </div>
     </footer>
 
 </body>
